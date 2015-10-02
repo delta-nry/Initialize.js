@@ -1,7 +1,7 @@
-var i = (function() {
+var Init = (function() {
   'use strict';
   return {
-    c: function(obj, args) {
+    create: function(obj, args) {
       if (arguments.length > 0) {
         var newObj = Object.create(arguments[0]);
         if ('init' in newObj && typeof newObj.init === 'function') {
