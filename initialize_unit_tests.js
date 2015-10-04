@@ -14,9 +14,6 @@ QUnit.test('Init.create()', function(assert) {
     this.c = c;
     this.d = d;
   };
-  var C = Object.create(A);
-  C.c = undefined;
-  C.d = undefined; 
 
   var a1 = Init.create(A);
   var ap1 = Object.create(A);
