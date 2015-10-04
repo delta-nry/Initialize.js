@@ -1,3 +1,6 @@
+// Copyright (C) 2015 Nathan Robert Yee
+// The code in this file is licenced under the MIT License
+
 var Init = (function() {
   'use strict';
   return {
