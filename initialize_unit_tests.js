@@ -1,3 +1,6 @@
+// Copyright (C) 2015 Nathan Robert Yee
+// The code in this file is licensed under the MIT License
+
 QUnit.test('Init.create()', function(assert) {
   var A = {
     a: undefined,
